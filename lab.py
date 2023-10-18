@@ -13,8 +13,8 @@ def apt_search2(city, max_rent, min_beds = 2, pets_allowed = False):
     else:
         print(f"Looking up listings in {city} with a budget of ${max_rent} and {min_beds} rooms that allows pets.")
 apt_search2("Tampa", 1400)
-apt_search2(city="any", min_beds=5, pets_allowed=True, max_rent="any")
-apt_search2("Toronto", 2000, pets_allowed = True)
+apt_search2("Boston", 1200, 1)
+apt_search2("Toronto", 2000, pets_allowed=True)
 plus_one_hundred = lambda a: a + 100
 square_num = lambda x: x ** 2
 concatenate = lambda y: "- " + y
